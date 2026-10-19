@@ -31,6 +31,15 @@ networking. A clean procedural replay then completed successfully end-to-end.
 
 **Current status:** Stage 1 passed.
 
+### [HybridOps / Proxmox Infrastructure Evaluation](https://github.com/ArtyParty0848/hybridops-proxmox-evaluation)
+
+Independent evaluation of HybridOps.Core on a Dell PowerEdge R740xd running Proxmox VE.
+
+Stage 1: ✅ Image & Template Lifecycle passed  
+Stage 2: ⏳ Network & IPAM Authority  
+Stage 3: ⏳ PostgreSQL HA  
+Stage 4: ⏳ RKE2
+
 ## Homelab
 
 Current areas of focus:
