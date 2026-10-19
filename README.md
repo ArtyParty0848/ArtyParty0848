@@ -7,7 +7,7 @@ networking, storage, automation, and practical infrastructure testing.
 
 ## Featured Work
 
-### HybridOps / Proxmox Infrastructure Evaluation
+### [HybridOps / Proxmox Infrastructure Evaluation](https://github.com/ArtyParty0848/hybridops-proxmox-evaluation)
 
 Independent practitioner evaluation of HybridOps.Core against a dedicated
 Dell PowerEdge R740xd Proxmox staging environment.
@@ -55,5 +55,5 @@ Current areas of focus:
 
 ## Projects
 
-- HybridOps Proxmox Evaluation — case study coming together now
+- [HybridOps Proxmox Evaluation](https://github.com/ArtyParty0848/hybridops-proxmox-evaluation) — staged evaluation of HybridOps.Core on Proxmox VE
 - R740xd server build and migration
