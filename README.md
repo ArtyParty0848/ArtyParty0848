@@ -26,19 +26,16 @@ Stage 1 included a full Ubuntu image lifecycle:
 `build → template → full clone → boot → guest-agent readiness → cleanup → destroy`
 
 The initial run exposed several real-world integration issues involving
-Proxmox permissions, SDN access, storage selection, ISO handling, and WSL/Packer
-networking. A clean procedural replay then completed successfully end-to-end.
+Proxmox permissions, SDN access, storage selection, ISO handling, and
+WSL/Packer networking. A clean procedural replay then completed successfully
+end-to-end.
 
-**Current status:** Stage 1 passed.
+**Current status**
 
-### [HybridOps / Proxmox Infrastructure Evaluation](https://github.com/ArtyParty0848/hybridops-proxmox-evaluation)
-
-Independent evaluation of HybridOps.Core on a Dell PowerEdge R740xd running Proxmox VE.
-
-Stage 1: ✅ Image & Template Lifecycle passed  
-Stage 2: ⏳ Network & IPAM Authority  
-Stage 3: ⏳ PostgreSQL HA  
-Stage 4: ⏳ RKE2
+- Stage 1: ✅ Image & Template Lifecycle — Passed
+- Stage 2: ⏳ Network & IPAM Authority
+- Stage 3: ⏳ PostgreSQL HA
+- Stage 4: ⏳ RKE2
 
 ## Homelab
 
