@@ -1,16 +1,50 @@
-## Hi there 👋
+# Hey, I'm James 👋
 
-<!--
-**ArtyParty0848/ArtyParty0848** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Marine Veteran | Cybersecurity Student | Homelab Tinkerer
 
-Here are some ideas to get you started:
+I build and maintain a home infrastructure lab focused on virtualization,
+networking, storage, automation, and practical infrastructure testing.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Work
+
+### HybridOps / Proxmox Infrastructure Evaluation
+
+Independent practitioner evaluation of HybridOps.Core against a dedicated
+Dell PowerEdge R740xd Proxmox staging environment.
+
+The evaluation covers:
+
+- Proxmox image and template lifecycle
+- networking and IPAM authority
+- PostgreSQL HA
+- RKE2
+- infrastructure automation validation
+- failure analysis and recovery testing
+
+Stage 1 included a full Ubuntu image lifecycle:
+
+`build → template → full clone → boot → guest-agent readiness → cleanup → destroy`
+
+The initial run exposed several real-world integration issues involving
+Proxmox permissions, SDN access, storage selection, ISO handling, and WSL/Packer
+networking. A clean procedural replay then completed successfully end-to-end.
+
+**Current status:** Stage 1 passed.
+
+## Homelab
+
+Current areas of focus:
+
+- Proxmox VE
+- Dell PowerEdge servers
+- TrueNAS
+- 10Gb networking
+- virtualization and storage
+- Linux and Windows administration
+- infrastructure automation
+- disaster recovery and validation
+
+## Projects
+
+- HybridOps Proxmox Evaluation — case study coming together now
+- R740xd server build and migration
